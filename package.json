@@ -1,0 +1,31 @@
+{
+  "name": "gs-geocode-csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0+sha256.fa0f513aa8191764d2b6b432420788c270f07b4f999099b65bb2010eec702a30",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "config": "^3.3.12",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.5.0",
+    "fast-csv": "^5.0.2"
+  },
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@types/bun": "latest",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
