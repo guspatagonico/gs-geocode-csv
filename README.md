@@ -1,6 +1,6 @@
-# KartonSec Geocode Processor
+# GS Geocode Processor
 
-KartonSec Geocode Processor is a high-performance geocoding tool built with the [Bun](https://bun.sh/) runtime. It efficiently processes geocoding tasks by reading addresses from a CSV file, sending them to a geocoding API, and writing the results back to an output CSV file. Leveraging Bun's speed and modern features, this tool is optimized for performance and developer experience.
+GS Geocode Processor is a high-performance geocoding tool built with the [Bun](https://bun.sh/) runtime. It efficiently processes geocoding tasks by reading addresses from a CSV file, sending them to a geocoding API, and writing the results back to an output CSV file. Leveraging Bun's speed and modern features, this tool is optimized for performance and developer experience.
 
 ## Features
 
@@ -17,8 +17,8 @@ The tool uses a configuration file (`config/default.json`) to define its behavio
 
 ```json
 {
-  "inputCsvPath": "input/kartonsec-pov.csv",
-  "baseOutputCsvPath": "output/kartonsec-output.csv",
+  "inputCsvPath": "input/input.csv",
+  "baseOutputCsvPath": "output/output.csv",
   "addressColumnIndex": 9,
   "requestDelayMs": 200,
   "maxRecordsToProcess": 0,
@@ -43,8 +43,8 @@ The tool uses a configuration file (`config/default.json`) to define its behavio
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/kartonsec-geocode-bun.git
-   cd kartonsec-geocode-bun
+   git clone https://github.com/your-username/gs-geocode-csv.git
+   cd gs-geocode-csv
    ```
 
 2. Install dependencies using Bun:
