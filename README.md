@@ -1,6 +1,17 @@
 # GS Geocode Processor
 
-GS Geocode Processor is a high-performance geocoding tool built with the [Bun](https://bun.sh/) runtime. It efficiently processes geocoding tasks by reading addresses from a CSV file, sending them to a geocoding API, and writing the results back to an output CSV file. Leveraging Bun's speed and modern features, this tool is optimized for performance and developer experience.
+GS Geocode Processor is a high-performance geocoding tool built with the [Bun](https://bun.sh/) runtime.
+It efficiently processes geocoding tasks by reading addresses from a CSV file, sending them to a geocoding API, and writing the results back to an output CSV file. Leveraging Bun's speed and modern features, this tool is optimized for performance and developer experience.
+
+As of the date of writing (May 14th, 2025), it is still compatible with Node.js Runtime, but I'm exploring to make it more Bun-friendly as an excuse to learn more about Bun.
+
+---
+
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white&style=for-the-badge)](https://conventionalcommits.org)
+
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=for-the-badge)](http://commitizen.github.io/cz-cli/)
+
+---
 
 ## Features
 
@@ -43,13 +54,19 @@ The tool uses a configuration file (`config/default.json`) to define its behavio
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/gs-geocode-csv.git
+   git clone https://github.com/guspatagonico/gs-geocode-csv.git
    cd gs-geocode-csv
    ```
 
-2. Install dependencies using Bun:
+2. Install dependencies using Bun or Npm:
    ```bash
    bun install
+   ```
+
+or
+
+   ```bash
+   npm install
    ```
 
 ## Why Bun?
@@ -61,9 +78,11 @@ Bun is a modern JavaScript runtime that offers several advantages over tradition
 
 By leveraging Bun, GS Geocode Processor ensures a faster and smoother experience for developers and users alike.
 
+I have nothing against Node.js, but I'm leveraging this project to explore Bun and learn more about it.
+
 ## Requirements
 
-- [Bun](https://bun.sh/) (v1.0 or later)
+- [Bun](https://bun.sh/) (v1.0 or later) (Node.js is also supported if you prefer)
 
 ## Contributing
 
