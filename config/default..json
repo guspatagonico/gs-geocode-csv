@@ -1,9 +1,0 @@
-{
-  "inputCsvPath": "input/kartonsec-distribuidores.csv",
-  "baseOutputCsvPath": "output/kartonsec-output.csv",
-  "logsFolder": "logs",
-  "addressColumnIndex": 9,
-  "requestDelayMs": 200,
-  "batchWriteSize": 20,
-  "fromRow": 0
-}
