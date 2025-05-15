@@ -36,3 +36,6 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 # Default input/output folders for this project (can contain sensitive vendors/customers information)
 input
 output
+
+# config file
+config/default.json

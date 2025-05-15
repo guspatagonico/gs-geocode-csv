@@ -1,0 +1,9 @@
+{
+  "inputCsvPath": "input/input-data.csv",
+  "baseOutputCsvPath": "output/output-geolocated-data.csv",
+  "logsFolder": "logs",
+  "addressColumnIndex": 9,
+  "requestDelayMs": 200,
+  "batchWriteSize": 10,
+  "fromRow": 0
+}
