@@ -1,8 +1,0 @@
-[2025-05-13T15:48:40.525Z] Script started. CLI arguments: 
-[2025-05-13T15:48:40.527Z] INFO: No --from-row specified. Processing all rows. Output: demo-output/demo-output.csv
-[2025-05-13T15:48:40.527Z] INFO: Effective Configuration:   Input CSV Path:         demo-input/demo-input.csv   Base Output CSV Path:   demo-output/demo-output.csv (Actual for this run: demo-output/demo-output.csv)   Address Column Index:   9   API Request Delay:      200ms   Max Records to Process: All applicable   Batch Write Size:       20
-[2025-05-13T15:48:40.532Z] INFO: Detected headers: codigo, nombre, domicilio, c_postal, localidad, provincia, pais, rubro, email_logi, Address, Latitude, Longitude
-[2025-05-13T15:48:40.535Z] INFO: CSV file reading complete. Total data rows read into memory: 299.
-[2025-05-13T15:48:40.535Z] INFO: Using column "Address" (index 9) for addresses.
-[2025-05-13T15:48:40.535Z] INFO: Output file demo-output/demo-output.csv does not exist or is empty. Headers will be written with the first batch.
-[2025-05-13T15:48:40.535Z] INFO: Starting geocoding. Will process rows from input index 0 onwards. Total applicable rows in input: 299.
